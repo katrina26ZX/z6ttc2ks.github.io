@@ -190,14 +190,14 @@ text-decoration:underline
 
 .quote img{
 	
-	width: 150px;
-	height: 150px;
+	width: 160px;
+	height: 160px;
     margin-top:25px;
-    
-	
-    
-   
-	
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  
+		
 }
 
 
@@ -206,9 +206,11 @@ text-decoration:underline
 	color:black;
 	font-weight:900;
     text-align:center;
-    margin-top:-30px;
-    padding-left:170px;
-    margin-bottom:20px;
+    bottom:-150px;
+	
+    
+    
+	
     
 
 }
@@ -218,10 +220,11 @@ text-decoration:underline
 #copytoclipboard{
     position:absolute;
     right:10px;
-    top:150px;
+    bottom:38px;
     width: 22px;
     cursor: pointer;
-    z-index:1;
+    z-index:10;
+	
     
 }
 
@@ -233,22 +236,27 @@ text-decoration:underline
     right:0;
     position:absolute;
     margin-top:-35px;
+	
     
 }
 
 #orderprice{
     text-align:center;
-    top:40px;
-    left:240px;
+    bottom:100px;
+    left:82px;
     position:absolute;
+	float:left;
 }
 
 .container_box{
+	
     border-width:2px;
     border-style:solid;
     border-radius:18px;
-    margin: 80px;
-    width:600px;
+    margin: 20px;
+	margin-top:50px;
+    width:455px;
+	height:400px;
     
 }
 
@@ -302,13 +310,18 @@ li {
     line-height: 22px;
     text-align:left;
     padding-right:20px;
-    
+	
+	
+	
+	
+	
+	
 }
 
 ul{
     line-height: 22px;
     text-align:left;
-    padding-right:180px;
+    
 }
 
 
@@ -466,7 +479,11 @@ ul{
     border: 3px inset dimgrey;
     background-color: black;
     height:40px;
-    width:600px;
+    width:500px;
+	
+	
+	
+	
     
 }
 
@@ -488,6 +505,93 @@ ul{
     color:yellow;
 }
 
+
+.t1{
+    border: 2px grey double;
+   
+	
+	
+	padding-left:20px;
+	padding-right:20px;
+	line-height:22px;
+    text-align:left;
+}
+
+
+
+
+.virtualcard-box ol{
+	
+	margin-left:20px;
+	margin-right:50px;
+}
+
+
+td, th {
+	border:solid 1px black;
+	
+}
+
+
+
+
+
+fieldset {
+    font-family: sans-serif;
+    border: 2px solid #1F497D;
+    background: #ddd;
+    border-radius: 4px;
+    padding: 10px;
+	width:400px;
+	margin-bottom:8px;
+	margin-top:4px;
+}
+
+fieldset legend {
+
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+
+fieldset li{
+	margin-left: -40px;
+}
+
+#buy{
+	background-color:forestgreen;
+	width: 120px;
+	height:35px;
+	margin:30px;
+	font-size:20px;
+	color:black;
+}
+
+#buy:hover{
+	
+	background-color:green;
+	
+}
+
+
+fieldset select{
+	height:300px;
+	width:200px;
+	padding:5px;
+}
+
+
+
+#label-qty{
+	width:55px;
+	margin-left:20px;
+	font-size:18px;
+	padding-left:18px;
+}
 
 #footer{
 
