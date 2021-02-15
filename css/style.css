@@ -621,7 +621,7 @@ fieldset select{
     font-size: 15px;
 }
 
-@media screen and (max-width:734px)
+@media screen and (max-width:896px)
 {
 	#logo img{
 		width:100%;
