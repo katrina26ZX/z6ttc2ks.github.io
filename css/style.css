@@ -618,6 +618,13 @@ fieldset select{
     font-size: 15px;
 }
 
+#alert{
+	color:red;
+	font-size:21;
+	
+}
+	
+
 @media screen and (max-width:896px)
 {
 	#logo{
