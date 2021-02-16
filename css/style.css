@@ -621,7 +621,7 @@ fieldset select{
 @media screen and (max-width:896px)
 {
 	#logo img{
-		width:100%;
+	width:100%;
 		
 	}
 	
@@ -650,6 +650,23 @@ fieldset select{
 	margin-left:20px;
 	margin-right:50px;
 	clear:left;
+}
+	
+#footertext {
+	
+    font-size:12px;
+    text-align:center;
+    padding-top:8px;
+    line-height:8px;
+
+}
+
+
+
+#footertext a{
+    text-decoration:none;
+    padding-right:10px;
+    font-size: 16px;
 }
 }
 
